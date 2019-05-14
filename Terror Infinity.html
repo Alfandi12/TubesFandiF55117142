@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Terror Infinity</title>
+	
+
+	<style>
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #009CF5;
+		margin-top: -10px;
+		margin-right: -10px;
+		margin-left: -10px;	
+		padding-left: 980px;
+	}
+
+	li {
+		float: left;
+		padding-right: : 
+	}
+
+	li a, .dropbtn {
+		display: inline-block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none; 
+	}
+
+	li a:hover, .dropdown:hover .dropbtn {
+		background-color: white;
+		color:  #009CF5;
+		transition: 0.5s;
+	}
+
+	li.dropdown {
+		display: inline-block;
+		transition: 1s;
+	}
+
+	.dropdown-content {
+		display: none;
+		background-color: white;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		margin-left: -221px;
+		border-radius: 6px;
+	}
+
+	.dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+	}
+
+	.dropdown-content a:hover {
+		background-color: #f1f1f1
+	}
+
+	.dropdown:hover .dropdown-content {
+    	display: block;
+    }
+
+    #search {
+		width: 300px;
+		height: 35px;
+		border-radius: 6px;
+		border: 1px solid silver;
+		font-size: 16px;
+		box-shadow: 1px 1px 1px 1px silver;	 
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	#search:active {
+		border: 1px solid black;
+		display: inline-block;
+		vertical-align: middle;
+		-webkit-transform: perspective(1px) translateZ(0);
+		transform: perspective(1px) translateZ(0);
+		-webkit-transition-duration: 0.3s;
+		-webkit-transition-property: background;
+		transition-property: background;
+		transition: 0.5s;
+		box-shadow: 1px 1px 1px gray;
+		border-radius: 6px;
+	}
+
+	.t1 {
+		border: 1px solid gray;
+		height: 295px;
+		width: 204px;
+		padding-top: 6px;
+		padding-left: 6px;
+		padding-bottom: 145px;
+		padding-right: 92px;
+		box-shadow: 5px 5px 5px grey;
+		margin-left: 350px;
+		margin-top: 150px;
+	}
+	#t1_2 {
+		margin-left: 168px;
+		padding-top: 15px;
+		font-size: 27px;
+		text-decoration: none; 
+		margin-right: 820px;
+		margin-top: -550px;
+	}
+
+	.t1:hover {
+		transition: 0.5s;
+		transform: scale(1.2);
+	}
+
+
+	a:link {
+		text-decoration: none;
+
+	}
+
+	
+	#samping {
+		border-style: 2px solid #DDEAEC;
+		margin-left: 400px;
+		font-size: 21px;
+		margin-top: -910px;
+		padding: 0 auto;
+		margin-right: 100px;
+		background-color: #DDEAEC;
+		padding-left: 30px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		margin-left: 922px;
+	}
+
+	#samping2 {
+		color: black;
+		background-color: #F2F2F2;
+		margin-left: 922px;
+		margin-right: 100px;
+		padding-top: 30px;
+		padding-left: 30px;
+		padding-bottom: 50px;
+		font-size: 15px;
+	}
+
+	#samping3 {
+		border-style: 2px solid #DDEAEC;
+		margin-left: 922px;
+		font-size: 21px;
+		margin-top: -30px;
+		padding: 0 auto;
+		margin-right: 100px;
+		background-color: #DDEAEC;
+		padding-left: 28px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	#samping4 {
+		color: black;
+		background-color: #F2F2F2;
+		margin-left: 922px;
+		margin-right: 100px;
+		padding-top: 30px;
+		padding-left: 30px;
+		padding-bottom: 40px;
+		font-size: 15px;
+	}
+
+	#bawah {
+		border: 1px solid #009CF5;
+		background-color: #009CF5;
+		margin-left: -540px;
+		padding-top: 10px;
+		text-align: center;
+		color: white; 
+		padding-bottom: 10px;
+		margin-right: -10px; 
+		font-size: 15px;
+		padding-left: 475px;
+		margin-top: 400px;
+		margin-bottom: -20px;
+	}
+
+	#a2 { 
+		position: absolute;
+		left: 5PX;
+		padding-left: 95px;
+		padding-top: 3px;
+
+	}
+
+	#a1{
+		position: absolute;
+		left: 5px;
+		padding-left: 107px;
+		margin-top: -3px;
+		height: 50px;
+		width: 250px;
+	}
+
+	.sosmed {
+		margin-left: 950px;
+		padding-top: 14px;
+		padding-left: 10px;  
+
+	}
+
+	#banyak {
+		margin-top: -45px;
+	}
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	* {box-sizing:border-box}
+	body {font-family: Verdana,sans-serif;}
+
+	.mySlides {display:none}
+
+	.slideshow-container {
+	  max-width: 1000px;
+	  position: relative;
+	  margin: auto;
+	}
+
+	.dot {
+	  height: 13px;
+	  width: 13px;
+	  margin: 0 2px;
+	  background-color: #bbb;
+	  border-radius: 50%;
+	  display: inline-block;
+	  transition: background-color 0.6s ease;
+	}
+
+	.active {
+	  background-color: #717171;
+	}
+
+	.fade {
+	  -webkit-animation-name: fade;
+	  -webkit-animation-duration: 3s;
+	  animation-name: fade;
+	  animation-duration: 3s;
+	}
+
+	@-webkit-keyframes fade {
+	  from {opacity: .1} 
+	  to {opacity: 4}
+	}
+
+	@keyframes fade {
+	  from {opacity: .1} 
+	  to {opacity: 4}
+	}
+
+	@media only screen and (max-width: 300px) {
+	  .text {font-size: 11px}
+	}
+
+	.text {
+		color: black;
+	}
+	
+	#b1 {
+		margin-left: 927px;
+		margin-top: 12px;
+	}
+
+	#sinopsis{
+		margin-right: 480px;
+		margin-left: 170px;
+		margin-top: 484px;
+		font-size: 17px;
+	}
+
+	#label_sinopsis {
+		margin-left: 290px;
+	}
+	</style>
+
+	<script>
+		
+
+	</script>
+</head>
+<body>
+<font face="Arial">
+<font color="gray">
+	
+	<ul>
+		<b>
+		<li><a href=index.html> HOME </a></li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" id="dropbtn"> SEARCH </a>
+			<div class="dropdown-content">
+			<input id="search" type="text" placeholder="Search...">
+			</div>
+		<li><a href="Login.html"> LOG OUT </a></li>	
+		</li>
+		</b>
+		<img id="a2" src="Untitled-5.png"><img id="a1" src="Untitled-6.png">
+	</ul>
+
+	<div class="slideshow-container">
+
+	<div class="mySlides fade">
+	  <img class="a1" src="2-banner-novel-1168x300-1168x200.png" style="width:100%">
+	</div>
+
+	<div class="mySlides fade">
+	  <img class="a1" src="6-banner-novel-1168x300-1168x200.png" style="width:100%">
+	</div>
+	</div>
+	<br>
+
+	<div style="text-align:center">
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	</div>
+	
+	<script>
+	var slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+	    var i;
+	    var slides = document.getElementsByClassName("mySlides");
+	    var dots = document.getElementsByClassName("dot");
+	    for (i = 0; i < slides.length; i++) {
+	       slides[i].style.display = "none";  
+	    }
+	    slideIndex++;
+	    if (slideIndex> slides.length) {slideIndex = 1}    
+	    for (i = 0; i < dots.length; i++) {
+	        dots[i].className = dots[i].className.replace(" active", "");
+	    }
+	    slides[slideIndex-1].style.display = "block";  
+	    dots[slideIndex-1].className += " active";
+	    setTimeout(showSlides, 4000);
+	}
+	</script>
+
+	<a href="#"><img class="sosmed" src="menu_facebook.png">&emsp;
+	<img src="menu_twitter.png">&emsp;
+	<img src="Untitled-4.png">&emsp;
+	<img src="Untitled-3.png">
+	</a>
+	
+	<div id="banyak">
+	<div id="tengah">
+			<div class="t1"><a href="#"><img src="001.jpg" width="290"></div>
+			<div id="t1_2"><font color="gray">Terror Infinity</a></font></div></div>
+
+	</div>
+	</div>
+
+	<table border="0" id="sinopsis">
+		<tr>
+			<td>
+				Genre : Action, Fantasy, Horror, Mature, Mystery, Romance, Sci-fi, Seinen, Supernatural, Tragedy. <br>
+
+				Author/Penerjemah : Zhttty/a0132<br>
+
+				Negara : China<br>
+
+				Status : On Going<br><p>
+			</td>
+		</tr>
+		<tr>
+			<td align="justify">
+				<div id="label_sinopsis"><b>Sinopsis:</b><p></div>
+				"Ingin tahu makna dari hidup? Ingin hidup... dalam hidup yang sesungguhnya?" Dunia berubah saat kau klik YES. Dalam dimensi Dewa, kau harus terus bertambah kuat, terus berkmbang untuk bertahan dari satu film horor ke film horor lainnya. Apa kau akan membunuh siapapun yang menghalangimu demi mencapai tujuanmu dan berakhir sebagai seorang raja yang kesepian? Atau berjuang bersama teman-temanmu? Semua ini hanya tentang bertahan hidup. Sampai kau menemukan rahasia dibalik dimensi Dewa. Siapakah musuh yang sesungguhnya?
+				<p>
+
+
+			</td>
+		</tr>
+	</table>
+
+
+	<div id="samping"><font face="AMERICAN CAPTAIN">
+		Recent Update
+	</div></font>
+	<div id="samping2">
+	<a href="#"><div class="text">TLMS - Volume 15 - Chapter 6<p></div></a>
+	<a href="#"><div class="text">ATG - Volume 1 / Chapter 91 <p></div></a>
+	<a href="#"><div class="text">USAW - Book 2 / Chapter 113<p></div></a>
+	<a href="#"><div class="text">COL - Volume 5 / Chapter 15<p></div></a>
+	<a href="#"><div class="text">Battle Through The Heaven - Chapter 134 <p></div></a>
+	<a href="#"><div class="text">TI - Volume 7 / Chapter 8.2 <p></div></a>
+	</div>
+
+	<div id="samping3"><font face="AMERICAN CAPTAIN">
+		Categories
+	</div></font>
+	<div id="samping4">
+	<a href="#"><div class="text">7 Killers <p></div></a>
+	<a href="#"><div class="text">Againist The God (ATG) <p></div></a>
+	<a href="#"><div class="text">Battle Through the Heavens (BTH)<p></div></a>
+	</div>
+
+	<img id="b1" src="Yukino-Yukinoshita.jpg">
+	<br>
+	<br><br>
+	<div id="bawah">	
+		Copyright &copy; 2017 
+	</div>
+	</p></p></p></div>
+
+	
+	
+</body>
+</html>
